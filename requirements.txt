@@ -1,1 +1,2 @@
-websockets
+python-socketio[asyncio_server]==5.9.0
+aiohttp==3.8.5
