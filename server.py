@@ -19,8 +19,8 @@ async def handler(websocket):
         connected.remove(websocket)
 
 async def main():
-    async with websockets.serve(handler, "0.0.0.0", 8765):
-        print("Server started on ws://0.0.0.0:8765")
+    async with websockets.serve(handler, "0.0.0.0", 25565):
+        print("Server started on ws://0.0.0.0:25565")
         await asyncio.Future()  # run forever
 
 if __name__ == "__main__":
